@@ -46,15 +46,12 @@ We use a labeled MRI dataset with the following classes:
 ```
 alzheimer-app/
 ├── static/
-│   └── uploads/              # Uploaded MRI images
+│   └── uploads/                                           # Uploaded MRI images
 ├── templates/
-│   └── index.html             # Frontend page
-├── model/
-│   └── model.h5               # Trained model
-├── dataset/                   # Alzheimer's MRI dataset
-├── app.py                     # Flask backend
-├── train.py                   # Model training script
-├── evaluate.py                # Model evaluation (optional)
+│   └── index.html                                         # Frontend page
+├── dataset/                                               # Alzheimer's MRI dataset
+├── app.py                                                 # Flask backend
+├── Pnuemonia Covid Model Building.ipynb                   # Model training script
 ├── requirements.txt
 └── README.md
 ```
@@ -88,7 +85,7 @@ alzheimer-app/
 4. **Train the model**
    ```bash
    pip install papermill
-   papermill Alzheimers Prediction.ipynb
+   papermill Pnuemonia Covid Model Building.ipynb
    ```
 
 5. **Run the Flask web app**
@@ -141,7 +138,3 @@ This project is licensed under the MIT License.
 If you found this project helpful, consider giving it a ⭐ on GitHub!
 
 ```
-
----
-
-Let me know if you'd like a sample `train.py`, `app.py`, or `index.html` for this project too!
