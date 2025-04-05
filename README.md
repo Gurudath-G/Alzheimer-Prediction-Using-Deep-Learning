@@ -46,7 +46,7 @@ We use a labeled MRI dataset with the following classes:
 ```
 alzheimer-app/
 ├── static/
-│   └── uploaded/              # Uploaded MRI images
+│   └── uploads/              # Uploaded MRI images
 ├── templates/
 │   └── index.html             # Frontend page
 ├── model/
@@ -87,7 +87,8 @@ alzheimer-app/
 
 4. **Train the model**
    ```bash
-   python train.py
+   pip install papermill
+   papermill Alzheimers Prediction.ipynb
    ```
 
 5. **Run the Flask web app**
@@ -117,14 +118,14 @@ alzheimer-app/
 
 ## 🖼️ Demo
 
-![Web App Screenshot](static/Demo.png)  
+![Web App Screenshot](static/uploads/Demo.png)  
 *Upload an MRI scan to get Alzheimer’s stage prediction instantly.*
 
 ---
 
 ## 🙌 Acknowledgements
 
-- Dataset source: [Kaggle - Alzheimer MRI Dataset](https://www.kaggle.com/datasets/sachinkumar413/alzheimer-mri-dataset)
+- Dataset source: [Kaggle - Alzheimer MRI Dataset](https://www.kaggle.com/datasets/uraninjo/augmented-alzheimer-mri-dataset)
 - Built using: Flask, TensorFlow/Keras
 
 ---
