@@ -85,7 +85,7 @@ alzheimer-app/
 4. **Train the model**
    ```bash
    pip install papermill
-   papermill Pnuemonia Covid Model Building.ipynb
+   papermill Alzheimers Prediction.ipynb
    ```
 
 5. **Run the Flask web app**
